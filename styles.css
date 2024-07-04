@@ -89,6 +89,23 @@ h1 {
     transition: 0.5s;
 }
 
+#fire-alert {
+    background-color: red;
+    border: 2px solid darkred;
+    color: darkred;
+    border-radius: 50%;
+    opacity: 30%;
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+    width: 5rem;
+}
+
+#fire-alert:hover {
+    opacity: 100%;
+    transition: 0.3s;
+}
+
 .content-body {
     grid-area: body;
     padding: 0 4%;
